@@ -1,18 +1,18 @@
 // fazendo algumas variaveis para obter respostas.
 
-let x = 2
-let y = 4
-let a = 5
-let b = x + y
+const x = 2
+const y = 4
+const a = 5
+const b = x + y
 
-let soma = b + x
+const soma = b + x
 console.log(soma)
 
 if (soma >= 7)
     console.log("Ok!")
 if (soma - a <= 7)
     console.log("Não")
-console.log(soma - a)
+console.log("resultado", soma - a)
 
 console.log(x, y, a, b)
 
